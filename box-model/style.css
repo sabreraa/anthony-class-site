@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    background-color:darkred;
+}
+
+.content {
+    background-color:coral;
+    color:beige;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px  solid chartreuse;
+    margin:50px
+}
+
+.border {
+    background-color:coral;
+    color:beige;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px  solid chartreuse;
+    margin:50px
+    box-sizing:botder-box;
+}
