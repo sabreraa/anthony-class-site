@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+    margin:0;
+}
+
+.main-container {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+.upper{
+    background-color:lightblue;
+    display:flex; 
+    border:60px solid lightblue;
+}
+
+    .dolphin{
+    position: relative;
+    bottom: 60px;
+    left:120px;
+    color: black;
+}
+
+    .horse{
+    position:relative;
+    right:110px;
+    color: purple;   
+}
+
+.horse2{
+    position:relative;
+    right:1800px;
+    bottom: 50px;
+    color: red;   
+}
+
+.jelly{
+    color:red;
+    position: relative;
+    top:40px;
+    right:50px;
+}
+
+.fish{
+    position:relative;
+    left:220px;
+    color:green;
+    top:60px;
+}
+
+.fish2{
+    color:red;
+    position:relative;
+    right:700px;
+}
+
+.boat{
+    position:relative;
+    color:blue;
+    right: 700px;
+    bottom:40px;
+}
+
+.boat2{
+    position:relative;
+    color:blue;
+    right: 1600px;
+    top:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.lower{
+    background-color: sandybrown;
+    display:flex;  
+}
+
+.shovel{
+    position:relative;
+    top:170px;
+    left:1000px;
+}
+
+.castle{
+    position:relative;
+    left:170px;
+}
+
+.girl{
+    position:relative;
+    right:630px;
+    color:purple;
+}
+
+.palm{
+    position:relative;
+    right:1550px;
+    bottom:100px;
+    color:green;
+}
+
+.castle2{
+    position:relative;
+    right:2050px;
+    top:100px;
+}
+
+.palm2{
+    position:relative;
+    right:1500px;
+    bottom:10px;
+    color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.city{
+    background-color:gray;
+    display:flex; 
+
+}

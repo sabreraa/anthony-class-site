@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: salmon;
+}
+
+.flex{
+    display:flex;
+    width:90vw;
+    height:90vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.border {
+    width:80vh;
+    height:80vh;
+    background:darkgray;
+    margin:0 auto;
+    border-radius:50%;
+    position:relative;
+  }
+  
+  .line {
+    background:rgba(255,0,0,.2);
+    position:absolute;
+    height:100%;
+    width:30px;
+    left:calc(50% - 15px);
+  }
+  
+  
+  
+  .circle {
+    background:azure;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    animation: move 3s infinite alternate ease-in-out;
+    position:absolute;
+  }
+  
+
+
+  .l2 {
+    transform:rotate(270deg);
+  }
+  .l2 .circle {
+    animation-delay: 1.5s;
+  }
+
+
+
+
+  .l3{
+    transform: rotate(135deg);
+  }
+  .l3 .circle {
+    animation-delay: 3.75s;
+  }
+
+
+
+
+  .l4{
+    transform: rotate(45deg);
+  }
+  .l4 .circle {
+    animation-delay:5.25s;
+  }
+
+
+
+
+  
+  .l5{
+    transform: rotate(112.5deg);
+  }
+  .l5 .circle {
+    animation-delay:10.125s;
+  }
+
+
+
+
+  .l6{
+    transform: rotate(22.5deg);
+  }
+  .l6 .circle {
+    animation-delay: 11.625s;
+  }
+
+  .l7{
+    transform: rotate(157.5deg);
+  }
+  .l7 .circle {
+    animation-delay: 15.375s;
+  }
+
+  .l8{
+    transform: rotate(67.5deg);
+  }
+  .l8 .circle {
+    animation-delay: 16.875s;
+  }
+
+
+  
+  @keyframes move {
+    0% {
+      bottom:calc(100% - 30px)
+    }
+    100% {
+      bottom:0;
+    }
+  }
+
+
+
+  .home{
+    color: gray;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+  }
