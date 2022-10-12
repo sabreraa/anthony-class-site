@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:20px;
+    background-color: lightblue;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
