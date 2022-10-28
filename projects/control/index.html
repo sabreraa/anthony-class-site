@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <title>control project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+
+    <button id="day-btn">lightmode</button>
+    <button id="dark-btn">darkmode</button>
+    <button id="winter-btn">winter</button>
+    <button id="fall-btn">fall</button>
+    
+    <button id="reveal-btn">rain</button>
+    <button id="reveal-btn">snow</button>
+
+    <p>
+      some buttons might have to be toggle off if layers overlap...
+    </p>
+ 
+    <p>
+      <a href="file:///Users/anthonysabrera/Desktop/anthony-class-site/projects/control/index.html">restart here</a> if needed
+    </p>
+
+  </div>
+
+
+  <div class="sun">
+    <div class="box"></div>
+  </div>
+
+  <div class="grass">
+    <div class="box"></div>
+  </div>
+  
+  <div class="trunk">
+    <div class="box"></div>
+  </div>
+  
+  <div class="leaves">
+    <div class="circle"></div>
+  </div>
+
+
+  <img class="rain" src="rain.gif" alt="rainy day">
+
+ 
+
+
+
+
+
+<script>
+    function boxToggle() {
+
+      var box = document.getElementById("box");
+      var obj = document.getElementById("obj")
+
+      box.classList.toggle("active");
+    }
+    </script>
+
+
+
+<script src="jquery-3.6.1.min.js"></script>
+<script src="scripts.js"></script>
+
+
+</body>
+</html>

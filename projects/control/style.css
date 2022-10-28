@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 10px;
+    background-color:darkgray;
+    transition: background-color .5s;
+}
+
+body.day{
+    background-color: skyblue;
+}
+
+body.dark{
+    background-color: darkslategray;
+}
+
+body.fall{
+    background-color:lightblue
+}
+
+body.winter{
+    background-color: gray;
+}
+
+
+
+.active {
+    right:0;
+}
+
+button {
+    padding: 10px;
+    border:1px solid;
+    cursor: pointer;
+    background-color: azure; 
+    border-radius: 5px;
+    transition: right .2s;
+}
+
+button:hover {
+    background-color:darkgray
+}
+
+button:active {
+    background-color: antiquewhite;
+}
+
+
+
+
+.sun{
+    position: fixed;
+    top:150px;
+    left:200px;
+    height: 50px;
+    width: 50px;
+    background-color: slategray;
+    border: 1px solid;
+    transition: transform 1s;
+    animation-play-state: paused;
+    transition: background-color 1s, box-shadow 1s; 
+}
+
+.sun.day{
+    background-color: yellow;
+    box-shadow: 0 0 10px 5px yellow;
+}
+
+.sun.dark{
+    background-color: azure;
+    box-shadow: 0 0 10px 5px azure;
+}
+
+.sun.fall{
+    background-color: yellow;
+    box-shadow: 0 0 10px 5px yellow;
+}
+
+.sun.winter{
+    background-color: orange;
+    box-shadow: 0 0 10px 5px orange;
+}
+
+
+
+
+.grass{
+    position: fixed;
+    top: 600px;
+    right:0px;
+    height: 200px;
+    width: 1700px;
+    background-color: slategray;
+    border: 1px solid;
+    transition: transform 1s;
+    animation-play-state: paused;
+    transition: background-color 1s, box-shadow 1s; 
+}
+
+.grass.day{
+    background-color: green;
+}
+
+.grass.dark{
+    background-color:darkgreen;
+}
+
+.grass.fall{
+    background-color: orange;
+}
+
+.grass.winter{
+    background-color: azure;
+}
+
+
+.trunk{
+    position: fixed;
+    bottom: 100px;
+    right:700px;
+    height: 400px;
+    width: 60px;
+    background-color:slategray;
+    border: 1px solid;
+    transition: transform 1s;
+    animation-play-state: paused;
+    transition: background-color 1s, box-shadow 1s; 
+}
+
+.trunk.day{
+    background-color: chocolate;
+}
+
+.trunk.dark{
+    background-color:rgb(109, 55, 16);
+}
+
+.trunk.fall{
+    background-color: darkgoldenrod;
+}
+
+.trunk.winter{
+    background-color: black;
+}
+
+.circle{
+    position:fixed;
+    background-color: slategray;
+    left:505px;
+    top: 150px;
+    width:400px;
+    height:300px;
+    border-radius:60%;
+    animation-play-state: paused;
+    transition: background-color 1s, box-shadow 1s; 
+}
+
+.circle.day{
+    background-color: greenyellow;
+}
+
+.circle.dark{
+    background-color: darkolivegreen;
+}
+
+.circle.fall{
+    background-color: brown;
+}
+
+.circle.winter{
+    background-color: gray;
+}
+
+
+
+
+.rain{
+    position: fixed;
+    width: 3500px;
+    right: 0px;
+    top: 150px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
