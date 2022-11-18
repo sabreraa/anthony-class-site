@@ -52,7 +52,7 @@ button:active {
 
 
 .sun{
-    position: fixed;
+    position: absolute;
     top:150px;
     left:200px;
     height: 50px;
@@ -88,7 +88,7 @@ button:active {
 
 
 .grass{
-    position: fixed;
+    position: absolute;
     top: 600px;
     right:0px;
     height: 200px;
@@ -118,8 +118,8 @@ button:active {
 
 
 .trunk{
-    position: fixed;
-    bottom: 100px;
+    position: absolute;
+    bottom:130px;
     right:700px;
     height: 400px;
     width: 60px;
@@ -146,16 +146,20 @@ button:active {
     background-color: black;
 }
 
+
+
+
+
 .circle{
-    position:fixed;
-    background-color: slategray;
-    left:505px;
-    top: 150px;
-    width:400px;
-    height:300px;
-    border-radius:60%;
-    animation-play-state: paused;
-    transition: background-color 1s, box-shadow 1s; 
+    position: absolute;
+  background-color: slategray;
+  left: -170px;
+  top: -150px;
+  width: 400px;
+  height: 300px;
+  border-radius: 60%;
+  animation-play-state: paused;
+  transition: background-color 1s, box-shadow 1s;
 }
 
 .circle.day{
@@ -178,7 +182,7 @@ button:active {
 
 
 .rain{
-    position: fixed;
+    position: absolute;
     width: 3500px;
     right: 0px;
     top: 150px;
