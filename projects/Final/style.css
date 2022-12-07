@@ -1,10 +1,94 @@
 body {
-    background-color:lightsalmon;
+    background-color:whitesmoke;
     color: black;
     margin: 40px;
+    font-family:Verdana;
+}
+
+
+.banner{
+    color:lightsteelblue;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.mockups{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.mock{
+    padding:20px;
+}
+
+
+.container{
+    flex-direction: row;
 }
 
 h1 {
-    color:blue;
-    
+    color:dodgerblue;
 }
+
+
+
+/* unvisited link */
+a:link {
+    color: cornflowerblue;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:steelblue;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: cornsilk;
+    background-color:darkorange;
+  }
+  
+  /* selected link */
+  a:active {
+    color:cornsilk;
+    background-color:steelblue;
+
+  }
+
+.container{
+    flex-direction: row;
+    display: flex;
+}
+
+.item{
+    padding: 30px;
+}
+
+.contact{
+    padding: 30px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
