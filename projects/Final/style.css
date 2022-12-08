@@ -2,16 +2,39 @@ body {
     background-color:whitesmoke;
     color: black;
     margin: 40px;
-    font-family:Verdana;
+    font-family:Helvetica;
 }
 
 
 .banner{
-    color:lightsteelblue;
+    color:gray;
+}
+
+.gif{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .title{
-    font-size: 25px;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.work{
+    padding: 40px;
 }
 
 .mockups{
@@ -25,12 +48,18 @@ body {
 }
 
 .mock{
-    padding:20px;
+    padding:50px;
+    transition: transform .2s;
+}
+
+.mock:hover{
+    transform: scale(1.5);
 }
 
 
 .container{
     flex-direction: row;
+    padding: 30px;
 }
 
 h1 {
@@ -61,8 +90,12 @@ a:link {
   a:active {
     color:cornsilk;
     background-color:steelblue;
-
   }
+
+.about{
+    padding: 30px;
+  }
+
 
 .container{
     flex-direction: row;
@@ -70,7 +103,12 @@ a:link {
 }
 
 .item{
+    padding: 10px;
+}
+
+.paragraph{
     padding: 30px;
+    width: 400px;
 }
 
 .contact{

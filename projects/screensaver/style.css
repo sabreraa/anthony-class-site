@@ -8,6 +8,37 @@ body{
 }
 
 
+/* unvisited link */
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+  text-decoration: underline;
+
+}
+
+/* visited link */
+a:visited {
+  color:whitesmoke;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: cornsilk;
+  background-color:darkorange;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color:cornsilk;
+  background-color:steelblue;
+  text-decoration: none;
+
+}
+
+
 .ny{
   display:flex;
   width:100vw;
@@ -118,14 +149,14 @@ body{
 
 
   .restart{
-    color: gray;
+    color: whitesmoke;
     position: relative;
     bottom: 1350px;
     left: 15px;
   }
 
   .bts{
-    color: gray;
+    color: whitesmoke;
     position: relative;
     bottom: 1340px;
     left: 15px;
